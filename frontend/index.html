@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Multi-User ToDo App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1 id="todo">ToDo App</h1>
+
+  <div id="authSection">
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button id="registerBtn">Register</button>
+    <button id="loginBtn">Login</button>
+    <p id="authMsg"></p>
+  </div>
+
+  <div id="todoSection" style="display:none;">
+    <input type="text" id="taskInput" placeholder="Enter a new task">
+    <button id="addBtn">Add Task</button>
+    <button id="logoutBtn">Logout</button>
+    <ul id="taskList"></ul>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
