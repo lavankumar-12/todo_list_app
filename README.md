@@ -4,8 +4,6 @@ A beautiful full-stack **To-Do List Application** built using
 **Node.js, Express, MySQL, and Vanilla JavaScript** with user authentication (JWT).  
 Each user can register, log in, and manage their own tasks — add, edit, delete, and mark as complete.
 
----
-
 ## 🚀 Features
 
 ✅ **User Authentication**
@@ -25,25 +23,3 @@ Each user can register, log in, and manage their own tasks — add, edit, delete
 - Works on both desktop and mobile  
 - Simple, fast, and lightweight frontend  
 
----
-
-## 📁 Project Structure
-
-├── backend/
-│ ├── app.js
-│ ├── package.json
-│ ├── db/
-│ │ └── connection.js
-│ ├── controllers/
-│ │ ├── taskController.js
-│ │ └── userController.js
-│ ├── middleware/
-│ │ └── authMiddleware.js
-│ ├── routes/
-│ │ ├── tasks.js
-│ │ └── users.js
-│ └── frontend/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
-└── README.md
